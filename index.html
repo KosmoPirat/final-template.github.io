@@ -3,16 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Final Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/all.min.css">
-	<link rel="stylesheet" href="css/style-slider.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="slider-container">
 		<div class="main-header">
-			<a href="#">
-				<svg class="logo_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
+			<a class="logo_icon" href="#">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
 					<g>
 						<path d="M56.9,61.4l5.3-9.2l5.3,9.2H56.9z M50.3,51.5h10.5l-5.3,9.2L50.3,51.5z M55.6,40.7l5.3,9.2H50.3L55.6,40.7z M43.7,40h10.5L49,49.2L43.7,40z M49,29.3l5.3,9.2H43.7L49,29.3z M37.2,28.5h10.5l-5.3,9.2L37.2,28.5z M42.4,17.8l5.3,9.2H37.2 L42.4,17.8z M30.6,17h10.5l-5.3,9.2L30.6,17z M35.8,6.3l5.3,9.2H30.6L35.8,6.3z M24,27l5.3-9.2l5.3,9.2H24z M17.5,38.4l5.3-9.2 l5.3,9.2H17.5z M10.9,49.9l5.3-9.2l5.3,9.2H10.9z M4.3,61.4l5.3-9.2l5.3,9.2H4.3z M21.4,51.5l-5.3,9.2l-5.3-9.2H21.4z M28,40 l-5.3,9.2L17.5,40H28z M34.5,28.5l-5.3,9.2L24,28.5H34.5z M41.1,61.4H30.6l5.2-9.2L41.1,61.4z M47.7,51.5l-5.3,9.2l-5.3-9.2H47.7z M54.2,61.4H43.7l5.3-9.2L54.2,61.4z"></path>
 						<text transform="matrix(1 0 0 1 72 49)">W</text>
@@ -23,6 +23,14 @@
 					</g>
 				</svg>
 			</a>
+			<a class="logo_icon-mobile" href="#">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
+						<path d="M56.9,61.4l5.3-9.2l5.3,9.2H56.9z M50.3,51.5h10.5l-5.3,9.2L50.3,51.5z M55.6,40.7l5.3,9.2H50.3L55.6,40.7z M43.7,40h10.5L49,49.2L43.7,40z M49,29.3l5.3,9.2H43.7L49,29.3z M37.2,28.5h10.5l-5.3,9.2L37.2,28.5z M42.4,17.8l5.3,9.2H37.2 L42.4,17.8z M30.6,17h10.5l-5.3,9.2L30.6,17z M35.8,6.3l5.3,9.2H30.6L35.8,6.3z M24,27l5.3-9.2l5.3,9.2H24z M17.5,38.4l5.3-9.2 l5.3,9.2H17.5z M10.9,49.9l5.3-9.2l5.3,9.2H10.9z M4.3,61.4l5.3-9.2l5.3,9.2H4.3z M21.4,51.5l-5.3,9.2l-5.3-9.2H21.4z M28,40 l-5.3,9.2L17.5,40H28z M34.5,28.5l-5.3,9.2L24,28.5H34.5z M41.1,61.4H30.6l5.2-9.2L41.1,61.4z M47.7,51.5l-5.3,9.2l-5.3-9.2H47.7z M54.2,61.4H43.7l5.3-9.2L54.2,61.4z">
+						</path>
+				</svg>
+			</a>
+			<label class="mob-menu-ladel" for="mob-menu"></label>
+    		<input class="mob-menu-checkbox" id="mob-menu" type="checkbox" >
 			<nav class="main-nav-wrap">
 				<ul class="main-nav-menu">
 					<li class="main-nav-menu_item"><a href="#">Home</a></li>
@@ -314,13 +322,13 @@
 		<div class="for-mobile-content">
 			<h2>Excellent for Mobile Devices.</h2>
 			<p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-			<ul class="for-mobile-content-list">
-				<li>Nam liber tempor cum soluta nobis eleifend option;</li>
-				<li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-				<li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-				<li>Investigationes demonstraverunt lectores</li>
-			</ul>
 		</div>
+		<ul class="for-mobile-content-list">
+			<li>Nam liber tempor cum soluta nobis eleifend option;</li>
+			<li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+			<li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+			<li>Investigationes demonstraverunt lectores</li>
+		</ul>
 	</section>
 	<section class="stat-data">
 		<div class="stat-data-item">
@@ -359,35 +367,136 @@
 		</div>
 	</section>
 	<section class="recent-post">
-		<h2></h2>
-		<p></p>
+		<h2>Recent Posts.</h2>
+		<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 		<div class="recent-post-item-wrap">
 			<article class="recent-post-item">
-				<img src="" alt="Post Image">
+				<a href="#" class="recent-post-img-link">
+					<img src="img/recent-post-img-1.jpg" alt="Post Image">
+				</a>
 				<div class="recent-post-item-content">
-					<h5></h5>
-					<p></p>
+					<h5>Lorem ipsum dolor sit amet</h5>
+					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 					<a href="#">Read More</a>
 				</div>
 			</article>
 			<article class="recent-post-item">
-				<img src="" alt="Post Image">
+				<a href="#" class="recent-post-img-link">
+					<img src="img/recent-post-img-2.jpg" alt="Post Image">
+				</a>
 				<div class="recent-post-item-content">
-					<h5></h5>
-					<p></p>
+					<h5>Lorem ipsum dolor sit amet</h5>
+					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 					<a href="#">Read More</a>
 				</div>
 			</article>
 			<article class="recent-post-item">
-				<img src="" alt="Post Image">
+				<a href="#" class="recent-post-img-link">
+					<img src="img/recent-post-img-3.jpg" alt="Post Image">
+				</a>
 				<div class="recent-post-item-content">
-					<h5></h5>
-					<p></p>
+					<h5>Lorem ipsum dolor sit amet</h5>
+					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 					<a href="#">Read More</a>
 				</div>
 			</article>
+			<div class="recent-post-control">
+				<button id="arr-left" class="recent-post-control-item">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22">
+						<path d="M 7.58 10.43C 7.58 10.43 12.35 5.66 12.35 5.66 12.64 5.37 13.11 5.37 13.4 5.66 13.68 5.95 13.68 6.42 13.4 6.7 13.4 6.7 9.14 10.96 9.14 10.96 9.14 10.96 13.4 15.21 13.4 15.21 13.68 15.5 13.68 15.96 13.4 16.25 13.11 16.54 12.64 16.54 12.35 16.25 12.35 16.25 7.58 11.48 7.58 11.48 7.44 11.33 7.37 11.15 7.37 10.96 7.37 10.77 7.44 10.58 7.58 10.43ZM 10.99 0.03C 17.05 0.03 21.97 4.94 21.97 11.01 21.97 17.08 17.05 21.99 10.99 21.99 4.92 21.99 0 17.08 0 11.01 0 4.94 4.92 0.03 10.99 0.03ZM 10.99 20.52C 16.23 20.52 20.5 16.25 20.5 11.01 20.5 5.77 16.23 1.5 10.99 1.5 5.74 1.5 1.47 5.77 1.47 11.01 1.47 16.25 5.74 20.52 10.99 20.52Z"/>
+					</svg>
+				</button>
+				<button id="arr-right" class="recent-post-control-item">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22">
+						<path d="M 14.42 10.43C 14.42 10.43 9.64 5.66 9.64 5.66 9.36 5.37 8.89 5.37 8.6 5.66 8.32 5.95 8.32 6.42 8.6 6.7 8.6 6.7 12.86 10.96 12.86 10.96 12.86 10.96 8.6 15.21 8.6 15.21 8.32 15.5 8.32 15.96 8.6 16.25 8.89 16.54 9.36 16.54 9.64 16.25 9.64 16.25 14.42 11.48 14.42 11.48 14.56 11.33 14.63 11.15 14.63 10.96 14.63 10.77 14.56 10.58 14.42 10.43ZM 11.01 0.03C 4.95 0.03 0.03 4.94 0.03 11.01 0.03 17.08 4.95 21.99 11.01 21.99 17.08 21.99 22 17.08 22 11.01 22 4.94 17.08 0.03 11.01 0.03ZM 11.01 20.52C 5.77 20.52 1.5 16.25 1.5 11.01 1.5 5.77 5.77 1.5 11.01 1.5 16.26 1.5 20.52 5.77 20.52 11.01 20.52 16.25 16.26 20.52 11.01 20.52Z"/>
+					</svg>
+				</button>
+			</div>
 		</div>
-		
 	</section>
-</body>
+	<section class="partner">
+		<img src="img/logo-01.png" alt="logo" class="partner-img" width="210" height="127">
+		<img src="img/logo-02.png" alt="logo" class="partner-img" width="210" height="210">
+		<img src="img/logo-03.png" alt="logo" class="partner-img" width="210" height="130">
+		<img src="img/logo-04.png" alt="logo" class="partner-img" width="210" height="164">
+	</section>
+	<footer class="footer-wrap">
+		<section class="footer-content">
+			<article class="footer-content-item">
+				<a href="#">
+					<svg class="logo_icon-footer" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="4 5 205 65" xml:space="preserve">
+						<g>
+							<path d="M56.9,61.4l5.3-9.2l5.3,9.2H56.9z M50.3,51.5h10.5l-5.3,9.2L50.3,51.5z M55.6,40.7l5.3,9.2H50.3L55.6,40.7z M43.7,40h10.5L49,49.2L43.7,40z M49,29.3l5.3,9.2H43.7L49,29.3z M37.2,28.5h10.5l-5.3,9.2L37.2,28.5z M42.4,17.8l5.3,9.2H37.2 L42.4,17.8z M30.6,17h10.5l-5.3,9.2L30.6,17z M35.8,6.3l5.3,9.2H30.6L35.8,6.3z M24,27l5.3-9.2l5.3,9.2H24z M17.5,38.4l5.3-9.2 l5.3,9.2H17.5z M10.9,49.9l5.3-9.2l5.3,9.2H10.9z M4.3,61.4l5.3-9.2l5.3,9.2H4.3z M21.4,51.5l-5.3,9.2l-5.3-9.2H21.4z M28,40 l-5.3,9.2L17.5,40H28z M34.5,28.5l-5.3,9.2L24,28.5H34.5z M41.1,61.4H30.6l5.2-9.2L41.1,61.4z M47.7,51.5l-5.3,9.2l-5.3-9.2H47.7z M54.2,61.4H43.7l5.3-9.2L54.2,61.4z"></path>
+							<text transform="matrix(1 0 0 1 72 49)">W</text>
+							<text transform="matrix(1 0 0 1 108 49)">a</text>
+							<text transform="matrix(1 0 0 1 129 49)">x</text>
+							<text transform="matrix(1 0 0 1 147 49)">o</text>
+							<text transform="matrix(1 0 0 1 168 49)">m</text>
+						</g>
+					</svg>
+				</a>
+				<p>Lorem ipsum dolor sit amet, consec&shy;tetuer adipiscing elit, sed diam nonummy nibh euismod incidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+				<a class="readmore-link" href="#">Read More</a>
+			</article>
+		</section>
+		<section class="footer-content">
+			<h5>Recent Posts</h5>
+			<a href="#">
+				<article class="footer-content-item">
+					<span>September 08, 2015</span>
+					<p>Lorem ipsum dolor sit amet, consec&shy;tetuer adipiscing elit</p>
+				</article>
+			</a>
+			<hr>
+			<a href="#">
+				<article class="footer-content-item">
+					<span>September 08, 2015</span>
+					<p>Diam nonummy nibh euismod tincid&shy;unt ut laoreet dolore magna</p>
+				</article>
+			</a>
+			<hr>
+			<a href="#">
+				<article class="footer-content-item">
+					<span>September 08, 2015</span>
+					<p>Claritas est etiam processus dynamic&shy;us, qui sequitur mutationem per seac&shy;ula quarta decima</p>
+				</article>
+			</a>
+		</section>
+		<section class="footer-content">
+			<h5>Our Twitter</h5>
+			<article class="footer-content-item">
+				<p><span class="hashtag">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+				<span>3 mins ago</span>
+			</article>
+			<hr>
+			<article class="footer-content-item">
+				<p>Mirum est <span class="hashtag">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+				<span>5 hours ago</span>
+			</article>
+			<hr>
+			<article class="footer-content-item">
+				<p>Soluta nobis option <span class="lighter">bit.ly/1Hniso7</span></p>
+				<span>20 days ago</span>
+			</article>
+		</section>
+		<section class="footer-content">
+			<h5>Dribbble Widget</h5>
+			<img src="img/drible-img-1.jpg" alt="dribbble" width="130" height="98">
+			<img src="img/drible-img-2.jpg" alt="dribbble" width="130" height="98">
+			<img src="img/drible-img-3.jpg" alt="dribbble" width="130" height="98">
+			<img src="img/drible-img-4.jpg" alt="dribbble" width="130" height="98">
+		</section>
+	</footer>
+	<section class="footer-content-copyright">
+	<div class="footer-content-copyright-item">
+		<a href="#">Copyright © 2015 <span>Waxom</span></a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">FAQ</a>
+		<a href="#">Support</a>
+	</div>
+	<div class="footer-content-copyright-item">
+		<a href="#">Designed by <span>ThemeFire</span></a>
+		<a href="#">Only on <span>Envato Market</span></a>
+	</div>
+	</section>
 </html>

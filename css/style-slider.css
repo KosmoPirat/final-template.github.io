@@ -165,3 +165,10 @@
 {
 	visibility: visible;
 }
+
+@media (max-width: 425px) {
+	/*Start Header*/
+	.slider-container{
+		display: none;
+	}
+}
